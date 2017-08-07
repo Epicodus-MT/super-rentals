@@ -1,5 +1,4 @@
-/* eslint-env node */
-'use strict';
+/* jshint node: true */
 
 module.exports = function(environment) {
   var ENV = {
@@ -15,10 +14,10 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: 'AIzaSyDptIVqs-AlJJ9MiGQDFoLBEbYKXwyqxh0',
-      authDomain: 'super-rentals-14244.firebaseapp.com',
-      databaseURL: 'https://super-rentals-14244.firebaseio.com',
-      storageBucket: 'super-rentals-14244.appspot.com'
+      apiKey: "AIzaSyDptIVqs-AlJJ9MiGQDFoLBEbYKXwyqxh0",
+      authDomain: "super-rentals-14244.firebaseapp.com",
+      databaseURL: "https://super-rentals-14244.firebaseio.com",
+      storageBucket: "super-rentals-14244.appspot.com"
     },
 
     APP: {
