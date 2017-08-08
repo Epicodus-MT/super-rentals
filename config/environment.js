@@ -14,10 +14,10 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyDptIVqs-AlJJ9MiGQDFoLBEbYKXwyqxh0",
-      authDomain: "super-rentals-14244.firebaseapp.com",
-      databaseURL: "https://super-rentals-14244.firebaseio.com",
-      storageBucket: "super-rentals-14244.appspot.com"
+      apiKey: 'AIzaSyDptIVqs-AlJJ9MiGQDFoLBEbYKXwyqxh0',
+      authDomain: 'super-rentals-14244.firebaseapp.com',
+      databaseURL: 'https://YOUR-FIREBASE-APP.firebaseio.com',
+      storageBucket: 'super-rentals-14244.appspot.com'
     },
 
     APP: {
@@ -33,6 +33,112 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
+  /* jshint node: true */
+
+  module.exports = function(environment) {
+    var ENV = {
+      modulePrefix: 'super-rentals',
+      environment: environment,
+      rootURL: '/',
+      locationType: 'auto',
+      EmberENV: {
+        FEATURES: {
+          // Here you can enable experimental features on an ember canary build
+          // e.g. 'with-controller': true
+        }
+      },
+
+      firebase: {
+        apiKey: "AIzaSyDavMCc1nash7fCWRW9j2tY9y10QIptpnI",
+        authDomain: "super-rentals-mike.firebaseapp.com",
+        databaseURL: "https://super-rentals-mike.firebaseio.com",
+        storageBucket: "super-rentals-mike.appspot.com"
+      },
+
+      APP: {
+        // Here you can pass flags/options to your application instance
+        // when it is created
+      }
+    };
+
+    if (environment === 'development') {
+      // ENV.APP.LOG_RESOLVER = true;
+      // ENV.APP.LOG_ACTIVE_GENERATION = true;
+      // ENV.APP.LOG_TRANSITIONS = true;
+      // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+      // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    }
+
+    if (environment === 'test') {
+      // Testem prefers this...
+      ENV.locationType = 'none';
+
+      // keep test console output quieter
+      ENV.APP.LOG_ACTIVE_GENERATION = false;
+      ENV.APP.LOG_VIEW_LOOKUPS = false;
+
+      ENV.APP.rootElement = '#ember-testing';
+    }
+
+    if (environment === 'production') {
+
+    }
+
+    return ENV;
+  };
+  /* jshint node: true */
+
+  module.exports = function(environment) {
+    var ENV = {
+      modulePrefix: 'super-rentals',
+      environment: environment,
+      rootURL: '/',
+      locationType: 'auto',
+      EmberENV: {
+        FEATURES: {
+          // Here you can enable experimental features on an ember canary build
+          // e.g. 'with-controller': true
+        }
+      },
+
+      firebase: {
+        apiKey: "AIzaSyDavMCc1nash7fCWRW9j2tY9y10QIptpnI",
+        authDomain: "super-rentals-mike.firebaseapp.com",
+        databaseURL: "https://super-rentals-mike.firebaseio.com",
+        storageBucket: "super-rentals-mike.appspot.com"
+      },
+
+      APP: {
+        // Here you can pass flags/options to your application instance
+        // when it is created
+      }
+    };
+
+    if (environment === 'development') {
+      // ENV.APP.LOG_RESOLVER = true;
+      // ENV.APP.LOG_ACTIVE_GENERATION = true;
+      // ENV.APP.LOG_TRANSITIONS = true;
+      // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+      // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    }
+
+    if (environment === 'test') {
+      // Testem prefers this...
+      ENV.locationType = 'none';
+
+      // keep test console output quieter
+      ENV.APP.LOG_ACTIVE_GENERATION = false;
+      ENV.APP.LOG_VIEW_LOOKUPS = false;
+
+      ENV.APP.rootElement = '#ember-testing';
+    }
+
+    if (environment === 'production') {
+
+    }
+
+    return ENV;
+  };
 
   if (environment === 'test') {
     // Testem prefers this...
