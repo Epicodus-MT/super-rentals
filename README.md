@@ -19,12 +19,38 @@ Within the repository you'll find the following directories and files:
 ```
 super-rentals/
 ├── app/
+|    └── adapters/
 |    └── components/
-├── contact-info.md
+|    └── controllers/
+|    └── helpers/
+|    └── models/
+|    └── routes/
+|    └── styles/
+|    └── templates/
+|    └── app.js
+|    └── index.html
+|    └── resolver.js
+|    └── router.js
+├── config/
+|    └── environment.js
+|    └── targets.js
+├── public/
+|    └── crossdomain.xml
+|    └── robots.txt
+├── tests/
+|    └── helpers/
+|    └── integration/
+|    └── unit/
+|    └── .jshintrc
+|    └── index.html
+|    └── test-helper.js
+├── vendor/
 ├── .gitignore
+├── bower.json
 ├── package-lock.json
 ├── package.json
 └── README.md
+
 ```
 
 ## Setup/Installation Requirements
